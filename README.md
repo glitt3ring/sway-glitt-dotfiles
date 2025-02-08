@@ -6,3 +6,5 @@ To Install This, Run:
 3. cd sway-glitt-dotfiles 
 4. chmod +x install.sh 
 5. ./install.sh 
+
+Btw I haven't tested this.
