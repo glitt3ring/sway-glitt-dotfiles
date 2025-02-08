@@ -7,6 +7,6 @@ To Install This, Run:
 4. chmod +x install.sh 
 5. ./install.sh 
 
-Btw I haven't tested this.
+Btw I haven't tested this, And it's recommended that you check the files before Installing.
 
 NVIDIA Proprietary drivers are not supported in sway so use Nouveau.
