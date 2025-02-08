@@ -1,0 +1,14 @@
+echo NVIDIA Proprietary drivers are not supported so use Nouveau
+echo Installing Required Packages...
+sudo pacman -Syu --needed --noconfirm sway swayidle swaylock wofi waybar xfce4-screenshooter bluez bluez-utils blueman alacritty pipewire pipewire-alsa pipewire-audio pipewire-docs pipewire-ffado pipewire-jack pipewire-libcamera pipewire-roc pipewire-session-manager pipewire-v4l2 pipewire-x11-bell pipewire-zerconf realtime-privileges pipewire-pulse pavucontrol power-profiles-daemon lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings nerd-fonts ttf-font-awesome
+echo Installing Optional Packages...
+sudo pacman -Syu --needed thunar firefox elisa vlc gwenview networkmanager nm-connection-editor
+cd ~/sway-glitt-dotfiles/
+cp -r sway ~/.config/
+cp -r waybar ~/.config/
+cp .alacritty.toml ~/
+cp .bashrc ~/
+cp .alias ~/
+sudo systemctl enable lightdm
+sudo systemctl enable power-profiles-daemon
+echo Reboot your PC if everything is done or type sudo systemctl start lightdm
