@@ -8,3 +8,4 @@ To Install This, Run:
 5. ./install.sh 
 
 Btw I haven't tested this.
+NVIDIA Proprietary drivers are not supported in sway so use Nouveau.
