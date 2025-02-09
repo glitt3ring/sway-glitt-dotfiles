@@ -241,4 +241,18 @@ default_border pixel 2
 bindsym $mod+m exec firefox
 bindsym $mod+n exec thunar
 
+# custom startup programs
 exec_always blueman-applet
+
+# Keybind Help
+# MOD+M = firefox
+# MOD+N = thunar
+# MOD+D = wofi
+# MOD+SHIFT+C = reload sway config
+# MOD+SHIFT+SPACE = toggle titling/floating mode
+# MOD+RIGHT-CLICK (HOLD) = resize a window
+# MOD+LEFT-CLICK (HOLD) = move a window
+# MOD+ENTER = open terminal
+# MOD+Q kill program
+# MOD+SHIFT+<num> move program to workspace
+# MOD+<num> switch to workspace
