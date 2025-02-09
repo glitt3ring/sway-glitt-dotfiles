@@ -11,6 +11,7 @@ cp -r waybar ~/.config/
 cp .alacritty.toml ~/
 cp .bashrc ~/
 cp .alias ~/
+sudo cp bash.bashrc /etc/
 sudo systemctl enable lightdm
 sudo systemctl enable power-profiles-daemon
 echo Reboot your PC if everything is done or type sudo systemctl start lightdm
