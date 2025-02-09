@@ -16,7 +16,6 @@ sudo systemctl enable lightdm
 sudo systemctl enable power-profiles-daemon
 sudo systemctl enable bluetooth
 sudo modprobe btusb
-sudo pacman -S light lightdm-gtk-greeter
 echo Reboot your PC if everything is done or type sudo systemctl start lightdm
 echo Config file is located in "~/.config/sway/config"
 echo Waybar Config is located in "~/.config/waybar/config" "~/.config/waybar/style.css"
