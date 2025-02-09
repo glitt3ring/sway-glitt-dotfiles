@@ -240,4 +240,5 @@ default_border pixel 2
 # custom keybinds
 bindsym $mod+m exec firefox
 bindsym $mod+n exec thunar
+
 exec_always blueman-applet
