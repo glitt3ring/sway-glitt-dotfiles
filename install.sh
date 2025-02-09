@@ -1,6 +1,6 @@
 echo NVIDIA Proprietary drivers are not supported so use Nouveau
 echo Installing Required Packages...
-sudo pacman -Syu --needed --noconfirm sway swayidle swaylock wofi waybar xfce4-screenshooter bluez bluez-utils blueman xdg-desktopp-portal xdg-desktop-portal-wlr alacritty pipewire pipewire-alsa pipewire-audio pipewire-docs pipewire-ffado pipewire-jack pipewire-libcamera pipewire-roc pipewire-session-manager pipewire-v4l2 pipewire-x11-bell pipewire-zerconf realtime-privileges pipewire-pulse pavucontrol power-profiles-daemon lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings nerd-fonts ttf-font-awesome
+sudo pacman -Syu --needed --noconfirm sway swayidle swaylock wofi waybar xfce4-screenshooter bluez bluez-utils blueman xdg-desktopp-portal xdg-desktop-portal-wlr alacritty pipewire pipewire-alsa pipewire-audio pipewire-docs pipewire-ffado pipewire-jack pipewire-libcamera pipewire-roc pipewire-session-manager pipewire-v4l2 pipewire-x11-bell pipewire-zerconf realtime-privileges pipewire-pulse pavucontrol power-profiles-daemon lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings nerd-fonts ttf-font-awesome gvfs
 echo Installing Optional Packages...
 sudo pacman -Syu --needed thunar firefox elisa vlc gwenview networkmanager nm-connection-editor
 cd ~/sway-glitt-dotfiles/
