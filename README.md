@@ -7,6 +7,6 @@ To Install This, Run:
 4. chmod +x install.sh 
 5. ./install.sh 
 
-Btw I haven't tested this, And it's recommended that you check the files before Installing.
+I won't be maintaining this cuz I moved to Gentoo with KDE.
 
 NVIDIA Proprietary drivers are not supported in sway so use Nouveau.
